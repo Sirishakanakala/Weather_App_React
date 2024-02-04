@@ -36,3 +36,55 @@
     transform: rotate(360deg);
   }
 }
+.stories-container {
+  /* background-image: url(/public/images/background.png); */
+  background-size: cover;
+  background-position: center;
+
+  /* Add additional styling as needed */
+}
+body {
+  background: url(/public/images/background1.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  font-family: "Open Sans", sans-serif;
+  text-align: center;
+}
+.accordion-container {
+  width: 100%;
+}
+
+.accordion-item {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.5); /* Separator between accordion items */
+}
+
+.accordion-header {
+  cursor: pointer;
+  padding: 10px;
+  transition: background-color 0.3s ease;
+}
+
+.accordion-header:hover {
+  background-color: #594374; /* Darker color on hover */
+}
+
+.accordion-button {
+  background: none;
+ 
+  color: rgba(255, 255, 255, 0.8); /* Text color with transparency */
+  width: 100%;
+  text-align: left;
+}
+
+.accordion-content {
+  padding: 10px;
+  background-color: #f0eef3; /* Dark color for the content */
+  color: rgba(225, 211, 211, 0.8); /* Text color with transparency */
+  border-bottom: 1px solid rgba(118, 45, 45, 0.5); /* Separator between content and next accordion item */
+  text-decoration-color: whitesmoke;
+}
